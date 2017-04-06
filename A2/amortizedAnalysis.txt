@@ -1,0 +1,34 @@
+1. How many cost units are spent in the entire process of performing 16 consecutive 
+push operations on an empty array which starts out at capacity 8, assuming that the 
+array will double in capacity each time new item is added to an already full dynamic 
+array? Now try it for 32 consecutive push operations. As N (ie. the number of pushes) 
+grows large, under this strategy for resizing, what is the big-oh complexity for push?
+
+Answer: If it starts out at 8, it will double its capacity at 8 push operations and again
+at 16 push operations. So it will double its capacity twice to 32. So, 8 + 16 = 24 cost 
+units for 16. For 32 we would start off at 24 then add 32 for 32 pushes. 24 + 32 = 56 
+Big O is O(1) complexity
+
+2. How many cost units are spent in the entire process of performing 16 consecutive 
+push operations on an empty array which starts out at capacity 8, assuming that the 
+array will grow by a constant 2 spaces each time new item is added to an already full 
+dynamic array? Now try it for 32 consecutive push operations. As N (ie. the number of 
+pushes) grows large, under this strategy for resizing, what is the big-oh complexity 
+for push?
+
+Answer: For 16 we would do, 8 + 10 + 12 + 14 + 16 = 60 assuming we can only increase 
+capacity by 2. For the first 8 we add one cost unit each time. Then 10 for 10 pushes, 
+then 12, then 14, 16, 18 etc. until 32. So, we get 8 + 10 + 12 + 14 + 16 + 18 + 20 + 22 + 24 + 
+26 + 28 + 30 + 32 = 260. Big O is again O(n) complexity. 
+
+3. Suppose that a dynamic array stack doubles its capacity when it is full, and shrinks 
+(on Pop only) its capacity by half when the array is half full or less. Can you devise 
+a sequence of N push() and pop() operations which will result in poor performance (O(N^2) 
+total cost)? How might you adjust the array's shrinking policy to avoid this? (Hint: You 
+may assume that the initial capacity of the array is N/2.)
+
+Answer: I could push values until it reach its capacity, at that point it would double capacity. 
+Meaning one O(n). Next I would pop one value from the stack, causing it to be less than half, 
+then the capacity would have to decrease by half. Which would be O(n) again. Now, it's O(n^2).
+I might adjust the array's shrinking policy to avoid this by making it decrease its capacity when
+it is 3/4 empty. 

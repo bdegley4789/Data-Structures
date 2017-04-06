@@ -1,0 +1,389 @@
+desc: (none)
+cmd: prog
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=98843
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=98882
+mem_heap_B=40
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=102054
+mem_heap_B=64
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=102905
+mem_heap_B=88
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=103820
+mem_heap_B=112
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=103940
+mem_heap_B=136
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=104060
+mem_heap_B=160
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=112985
+mem_heap_B=160
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 120 0x4006E6: _createLink (cirListDeque.c:74)
+  n4: 96 0x400993: addFrontCirListDeque (cirListDeque.c:167)
+   n0: 24 0x400F1B: main (testCirListDeque.c:15)
+   n0: 24 0x400FCE: main (testCirListDeque.c:30)
+   n0: 24 0x400FFE: main (testCirListDeque.c:34)
+   n0: 24 0x40102E: main (testCirListDeque.c:38)
+  n1: 24 0x4008D7: addBackCirListDeque (cirListDeque.c:142)
+   n0: 24 0x400F73: main (testCirListDeque.c:22)
+ n1: 24 0x400648: _initCirListDeque (cirListDeque.c:45)
+  n1: 24 0x4006C9: createCirListDeque (cirListDeque.c:60)
+   n0: 24 0x400ECB: main (testCirListDeque.c:8)
+ n1: 16 0x4006B9: createCirListDeque (cirListDeque.c:59)
+  n0: 16 0x400ECB: main (testCirListDeque.c:8)
+#-----------
+snapshot=9
+#-----------
+time=112985
+mem_heap_B=136
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=114287
+mem_heap_B=112
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=114369
+mem_heap_B=88
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=115229
+mem_heap_B=112
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=115325
+mem_heap_B=136
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=115421
+mem_heap_B=160
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=120720
+mem_heap_B=176
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=120759
+mem_heap_B=200
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=120856
+mem_heap_B=224
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=120945
+mem_heap_B=248
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n3: 248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 168 0x4006E6: _createLink (cirListDeque.c:74)
+  n6: 120 0x400993: addFrontCirListDeque (cirListDeque.c:167)
+   n0: 24 0x400FFE: main (testCirListDeque.c:34)
+   n0: 24 0x40102E: main (testCirListDeque.c:38)
+   n0: 24 0x4011F4: main (testCirListDeque.c:76)
+   n0: 24 0x401208: main (testCirListDeque.c:77)
+   n0: 24 0x40121C: main (testCirListDeque.c:78)
+   n0: 0 in 2 places, all below massif's threshold (01.00%)
+  n3: 48 0x4008D7: addBackCirListDeque (cirListDeque.c:142)
+   n1: 24 0x400DD4: reverseCirListDeque (cirListDeque.c:345)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n1: 24 0x400DF6: reverseCirListDeque (cirListDeque.c:347)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 48 0x400648: _initCirListDeque (cirListDeque.c:45)
+  n2: 48 0x4006C9: createCirListDeque (cirListDeque.c:60)
+   n0: 24 0x400ECB: main (testCirListDeque.c:8)
+   n1: 24 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+ n2: 32 0x4006B9: createCirListDeque (cirListDeque.c:59)
+  n0: 16 0x400ECB: main (testCirListDeque.c:8)
+  n1: 16 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+   n0: 16 0x4012E4: main (testCirListDeque.c:94)
+#-----------
+snapshot=19
+#-----------
+time=121718
+mem_heap_B=248
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n3: 248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 168 0x4006E6: _createLink (cirListDeque.c:74)
+  n6: 120 0x400993: addFrontCirListDeque (cirListDeque.c:167)
+   n0: 24 0x400FFE: main (testCirListDeque.c:34)
+   n0: 24 0x40102E: main (testCirListDeque.c:38)
+   n0: 24 0x4011F4: main (testCirListDeque.c:76)
+   n0: 24 0x401208: main (testCirListDeque.c:77)
+   n0: 24 0x40121C: main (testCirListDeque.c:78)
+   n0: 0 in 2 places, all below massif's threshold (01.00%)
+  n3: 48 0x4008D7: addBackCirListDeque (cirListDeque.c:142)
+   n1: 24 0x400DD4: reverseCirListDeque (cirListDeque.c:345)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n1: 24 0x400DF6: reverseCirListDeque (cirListDeque.c:347)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 48 0x400648: _initCirListDeque (cirListDeque.c:45)
+  n2: 48 0x4006C9: createCirListDeque (cirListDeque.c:60)
+   n0: 24 0x400ECB: main (testCirListDeque.c:8)
+   n1: 24 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+ n2: 32 0x4006B9: createCirListDeque (cirListDeque.c:59)
+  n0: 16 0x400ECB: main (testCirListDeque.c:8)
+  n1: 16 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+   n0: 16 0x4012E4: main (testCirListDeque.c:94)
+#-----------
+snapshot=20
+#-----------
+time=121718
+mem_heap_B=224
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=121803
+mem_heap_B=248
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=122577
+mem_heap_B=224
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=122662
+mem_heap_B=248
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=123436
+mem_heap_B=224
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=123521
+mem_heap_B=248
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=127036
+mem_heap_B=272
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=127182
+mem_heap_B=296
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=127328
+mem_heap_B=320
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=127474
+mem_heap_B=344
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=detailed
+n3: 344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 264 0x4006E6: _createLink (cirListDeque.c:74)
+  n5: 216 0x4008D7: addBackCirListDeque (cirListDeque.c:142)
+   n1: 96 0x400E73: reverseCirListDeque (cirListDeque.c:356)
+    n0: 96 0x4012E4: main (testCirListDeque.c:94)
+   n1: 72 0x400DD4: reverseCirListDeque (cirListDeque.c:345)
+    n0: 72 0x4012E4: main (testCirListDeque.c:94)
+   n1: 24 0x400DF6: reverseCirListDeque (cirListDeque.c:347)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n1: 24 0x400E4D: reverseCirListDeque (cirListDeque.c:353)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+  n3: 48 0x400993: addFrontCirListDeque (cirListDeque.c:167)
+   n0: 24 0x40102E: main (testCirListDeque.c:38)
+   n0: 24 0x4011F4: main (testCirListDeque.c:76)
+   n0: 0 in 5 places, all below massif's threshold (01.00%)
+ n1: 48 0x400648: _initCirListDeque (cirListDeque.c:45)
+  n2: 48 0x4006C9: createCirListDeque (cirListDeque.c:60)
+   n0: 24 0x400ECB: main (testCirListDeque.c:8)
+   n1: 24 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+ n2: 32 0x4006B9: createCirListDeque (cirListDeque.c:59)
+  n0: 16 0x400ECB: main (testCirListDeque.c:8)
+  n1: 16 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+   n0: 16 0x4012E4: main (testCirListDeque.c:94)
+#-----------
+snapshot=30
+#-----------
+time=127620
+mem_heap_B=368
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=127697
+mem_heap_B=368
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=peak
+n3: 368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 288 0x4006E6: _createLink (cirListDeque.c:74)
+  n6: 240 0x4008D7: addBackCirListDeque (cirListDeque.c:142)
+   n1: 96 0x400E73: reverseCirListDeque (cirListDeque.c:356)
+    n0: 96 0x4012E4: main (testCirListDeque.c:94)
+   n1: 72 0x400DD4: reverseCirListDeque (cirListDeque.c:345)
+    n0: 72 0x4012E4: main (testCirListDeque.c:94)
+   n1: 24 0x400DF6: reverseCirListDeque (cirListDeque.c:347)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n1: 24 0x400E4D: reverseCirListDeque (cirListDeque.c:353)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n1: 24 0x400EA2: reverseCirListDeque (cirListDeque.c:359)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+  n3: 48 0x400993: addFrontCirListDeque (cirListDeque.c:167)
+   n0: 24 0x40102E: main (testCirListDeque.c:38)
+   n0: 24 0x4011F4: main (testCirListDeque.c:76)
+   n0: 0 in 5 places, all below massif's threshold (01.00%)
+ n1: 48 0x400648: _initCirListDeque (cirListDeque.c:45)
+  n2: 48 0x4006C9: createCirListDeque (cirListDeque.c:60)
+   n0: 24 0x400ECB: main (testCirListDeque.c:8)
+   n1: 24 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+    n0: 24 0x4012E4: main (testCirListDeque.c:94)
+ n2: 32 0x4006B9: createCirListDeque (cirListDeque.c:59)
+  n0: 16 0x400ECB: main (testCirListDeque.c:8)
+  n1: 16 0x400DAF: reverseCirListDeque (cirListDeque.c:342)
+   n0: 16 0x4012E4: main (testCirListDeque.c:94)
+#-----------
+snapshot=32
+#-----------
+time=127697
+mem_heap_B=352
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=132644
+mem_heap_B=328
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
